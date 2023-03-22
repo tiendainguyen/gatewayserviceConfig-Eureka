@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: hello-project # đặt tên cho ứng dụng của bạn
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

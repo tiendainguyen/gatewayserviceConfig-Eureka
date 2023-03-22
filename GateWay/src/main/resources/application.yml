@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: helloService
+          uri: http://localhost:8081/
+          predicates:
+            - Path=/api/v1/**
+server:
+  port: 9090
