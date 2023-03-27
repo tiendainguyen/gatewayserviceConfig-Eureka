@@ -1,7 +1,0 @@
-spring:
-  application:
-    name: your-application-name # ??t tên cho ?ng d?ng c?a b?n
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
